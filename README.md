@@ -1,7 +1,7 @@
 This repository is a fork of [github sfahlman/scone](https://github.com/sfahlman/scone)
 
 
-Install Scone with Debian package
+Install Scone from Debian package
 =================================
 
 Add pike repository:
@@ -22,7 +22,7 @@ $ sudo apt install scone
 ```
 
 
-Install Scone setup repository
+Install Scone from repository
 ==============================
 
 Install sbcl and slime packages:
