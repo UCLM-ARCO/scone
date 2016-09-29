@@ -1,0 +1,15 @@
+Source: scone
+Section: utils
+Priority: extra
+Maintainer: David Villa Alises <David.Villa@gmail.com>
+Build-Depends: debhelper (>= 7.0.50~), quilt
+Standards-Version: 3.9.6
+
+Package: scone
+Architecture: all
+Depends: ${misc:Depends}, sbcl, slime
+Description: knowledge base system
+ is a open-source knowledge base (KB) that support for representing symbolic
+ knowledge. It supports the "common sense" reasoning approach and provides rare
+ features like hypothetic situations, episodic memory, actions, events, mental
+ states, etc.

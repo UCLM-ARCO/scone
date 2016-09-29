@@ -1,0 +1,3 @@
+slime-conf.el /usr/share/scone/
+*.lisp        /usr/share/scone/
+kb/*          /usr/share/scone/kb/
