@@ -54,17 +54,16 @@
 
 (defvar *version*)
 (defvar *default-kb-pathname*)
+(defvar root (user-homedir-pathname))
 
 (declaim (ftype (function (string &key (:verbose boolean)))
 		load-kb))
 
 (defun scone (&optional (version "scone-git"))
   (setq *version* version)
-  (setq *default-kb-pathname* 
-    (format nil "/Users/sef/scone/~A/kb/anonymous.lisp"
-	    *version*))
-  (load (format nil "/Users/sef/scone/~A/engine"
-		*version*))
+  (setq *default-kb-pathname*
+	(format nil "~Ascone/kb/anonymous.lisp" root))
+  (load (format nil "~Ascone/engine" root))
   ;; If we're using a Scone engine that creates a separate scone package,
   ;; get into that package.
   (when (find-package :scone)

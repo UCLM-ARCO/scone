@@ -1,3 +1,49 @@
+This repository is a fork of [github sfahlman/scone](https://github.com/sfahlman/scone)
+
+Scone setup from repository
+===========================
+
+Install sbcl and slime packages:
+
+```
+#!shell
+
+$ sudo apt install sbcl slime
+```
+
+Clone this repository:
+
+```
+#!shell
+
+$ git clone https://bitbucket.org/arco_group/scone.git ~/scone
+```
+
+Emacs configuration
+===================
+
+Add next line to your **~/.emacs**:
+
+```
+(load-file "~/scone/slime-conf.el")
+```
+
+Run **emacs** and execute **slime** (left 'Alt' + 'x'):
+
+```
+M-x slime
+```
+
+At Slime prompt execute:
+
+```
+CL-USER> (load "~/scone/scone-start.lisp")
+```
+
+
+About Scone
+===========
+
 Scone is a knowledge representation and reasoning system – a knowledge-base system or KBS – that has been developed by Scott Fahlman’s research group in the Language Technologies Institute of Carnegie Mellon University.  Scone, by itself, is not a complete AI or decision-making system, and does not aspire to be; rather, it is a software component – a sort of smart active memory system – that is designed to be used in a wide range of software applications, both in AI and in other areas.  Scone deals just with symbolic knowledge. Things like visualization, motor memory, and memory for sound sequences are also important for human-like intelligence, but we believe that those will have specialized representations of their own, linked in various ways to the symbolic memory.
 
 Scone occupies a different part of the design space from other knowledge-base systems currently in use – particularly systems such as OWL that are based on First-Order Logic or Description Logic.  Our goal in developing Scone has been to support common-sense reasoning and natural-language understanding, not theorem-proving and logic puzzles.  Therefore, we place primary emphasis on Scone's expressiveness, ease of use, and scalability.
