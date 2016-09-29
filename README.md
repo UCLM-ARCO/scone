@@ -7,7 +7,7 @@ Install Scone with Debian package
 Add pike repository:
 
 ```
-#!shell
+#!text
 
 # echo "deb http://pike.esi.uclm.es/arco sid main" > /etc/apt/sources.list.d/pike.list
 # apt update
