@@ -13,7 +13,7 @@ Add pike repository:
 # apt update
 ```
 
-And install:
+And install or [download](https://bitbucket.org/arco_group/scone/downloads/scone_1.0.0-1_all.deb):
 
 ```
 #!shell
