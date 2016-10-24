@@ -3,7 +3,7 @@ Section: utils
 Priority: extra
 Maintainer: David Villa Alises <David.Villa@gmail.com>
 Build-Depends: debhelper (>= 7.0.50~), quilt
-Standards-Version: 3.9.6
+Standards-Version: 3.9.8
 
 Package: scone
 Architecture: all

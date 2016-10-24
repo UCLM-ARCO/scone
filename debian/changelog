@@ -1,3 +1,9 @@
+scone (1.0.0-2) unstable; urgency=low
+
+  * Added version link to make compatible with scone-server
+
+ -- David Villa Alises <David.Villa@gmail.com>  Mon, 24 Oct 2016 19:05:18 +0100
+
 scone (1.0.0-1) unstable; urgency=low
 
   * Initial release
