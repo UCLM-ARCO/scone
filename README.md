@@ -4,14 +4,7 @@ This repository is a fork of [github sfahlman/scone](https://github.com/sfahlman
 Install Scone from Debian package
 =================================
 
-Add pike repository:
-
-```
-#!text
-
-# echo "deb http://pike.esi.uclm.es/arco sid main" > /etc/apt/sources.list.d/pike.list
-# apt update
-```
+Configure repository https://uclm-arco.github.io/debian
 
 And install or [download](https://bitbucket.org/arco_group/scone/downloads/scone_1.0.0-1_all.deb):
 
